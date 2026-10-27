@@ -1,0 +1,42 @@
+{
+  "schema": "opsdesk-task-qa/v1",
+  "task_id": "F04_demand_spike-0009100063",
+  "family": "F04_demand_spike",
+  "tier": "hard",
+  "qa_status": "PASS",
+  "reasons": [],
+  "checks": [
+    {
+      "name": "reference_proven",
+      "passed": true,
+      "detail": "full coverage found; coverage proven; cost FEASIBLE (valid incumbent, solver gap 0.0%; agents may beat it, L4 is capped at 1.0)"
+    },
+    {
+      "name": "scope_matches",
+      "passed": true,
+      "detail": "10 start gap(s), all within the instruction's scope"
+    },
+    {
+      "name": "rules_in_documents",
+      "passed": true,
+      "detail": "every enforced hard rule is stated in a readable document"
+    },
+    {
+      "name": "step_limit",
+      "passed": true,
+      "detail": "gold replay 81 tool calls; server limits 3000 changes / 10000 calls"
+    },
+    {
+      "name": "inputs_visible",
+      "passed": true,
+      "detail": "forecast, absences and agency offers match the reference basis"
+    },
+    {
+      "name": "redteam",
+      "passed": true,
+      "detail": "hack audit OK"
+    }
+  ],
+  "env_version": "2.4.13",
+  "checked_at": "2026-10-27T12:08:53+00:00"
+}

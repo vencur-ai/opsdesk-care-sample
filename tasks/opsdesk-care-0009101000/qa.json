@@ -1,0 +1,42 @@
+{
+  "schema": "opsdesk-task-qa/v1",
+  "task_id": "F01_build_roster-0009101000",
+  "family": "F01_build_roster",
+  "tier": "easy",
+  "qa_status": "PASS",
+  "reasons": [],
+  "checks": [
+    {
+      "name": "reference_proven",
+      "passed": true,
+      "detail": "proven infeasible; coverage proven; cost proven optimal"
+    },
+    {
+      "name": "scope_matches",
+      "passed": true,
+      "detail": "42 start gap(s), all within the instruction's scope"
+    },
+    {
+      "name": "rules_in_documents",
+      "passed": true,
+      "detail": "every enforced hard rule is stated in a readable document"
+    },
+    {
+      "name": "step_limit",
+      "passed": true,
+      "detail": "gold replay 214 tool calls; server limits 3000 changes / 10000 calls"
+    },
+    {
+      "name": "inputs_visible",
+      "passed": true,
+      "detail": "forecast, absences and agency offers match the reference basis"
+    },
+    {
+      "name": "redteam",
+      "passed": true,
+      "detail": "hack audit OK"
+    }
+  ],
+  "env_version": "2.4.13",
+  "checked_at": "2026-10-27T12:08:52+00:00"
+}

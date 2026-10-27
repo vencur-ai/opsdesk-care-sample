@@ -1,0 +1,42 @@
+{
+  "schema": "opsdesk-task-qa/v1",
+  "task_id": "F02_sick_call_repair-0009100011",
+  "family": "F02_sick_call_repair",
+  "tier": "medium",
+  "qa_status": "PASS",
+  "reasons": [],
+  "checks": [
+    {
+      "name": "reference_proven",
+      "passed": true,
+      "detail": "full coverage found; coverage proven; cost proven optimal"
+    },
+    {
+      "name": "scope_matches",
+      "passed": true,
+      "detail": "no coverage gap at episode start"
+    },
+    {
+      "name": "rules_in_documents",
+      "passed": true,
+      "detail": "every enforced hard rule is stated in a readable document"
+    },
+    {
+      "name": "step_limit",
+      "passed": true,
+      "detail": "gold replay 10 tool calls; server limits 3000 changes / 10000 calls"
+    },
+    {
+      "name": "inputs_visible",
+      "passed": true,
+      "detail": "forecast, absences and agency offers match the reference basis"
+    },
+    {
+      "name": "redteam",
+      "passed": true,
+      "detail": "hack audit OK"
+    }
+  ],
+  "env_version": "2.4.13",
+  "checked_at": "2026-10-27T12:08:52+00:00"
+}

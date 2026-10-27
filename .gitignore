@@ -1,0 +1,8 @@
+.venv/
+byo_results/
+byo_*/
+server.log
+__pycache__/
+*.pyc
+.DS_Store
+.env

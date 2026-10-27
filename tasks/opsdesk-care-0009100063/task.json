@@ -1,0 +1,128 @@
+{
+  "difficulty": "hard",
+  "difficulty_score": 0.703833,
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "event_schedule": [
+    {
+      "event_id": "event-0001",
+      "event_type": "demand_spike",
+      "occurs_on": "2026-02-21"
+    },
+    {
+      "event_id": "event-0004",
+      "event_type": "sick_call",
+      "occurs_on": "2026-02-23"
+    },
+    {
+      "event_id": "event-0003",
+      "event_type": "demand_spike",
+      "occurs_on": "2026-02-25"
+    },
+    {
+      "event_id": "event-0002",
+      "event_type": "sick_call",
+      "occurs_on": "2026-03-01"
+    }
+  ],
+  "expected_final_report_schema": {
+    "additionalProperties": false,
+    "properties": {
+      "affected_employee_notifications": {
+        "items": {
+          "properties": {
+            "employee_id": {
+              "type": "string"
+            },
+            "reason": {
+              "type": "string"
+            },
+            "status": {
+              "enum": [
+                "sent",
+                "not_needed"
+              ]
+            }
+          },
+          "required": [
+            "employee_id",
+            "status",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "hard_rule_violations": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "total_cost_cents": {
+        "minimum": 0,
+        "type": "integer"
+      },
+      "uncovered_slots": {
+        "items": {
+          "properties": {
+            "date": {
+              "format": "date",
+              "type": "string"
+            },
+            "reason": {
+              "type": "string"
+            },
+            "shift_type": {
+              "type": "string"
+            },
+            "ward_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "date",
+            "ward_id",
+            "shift_type",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      }
+    },
+    "required": [
+      "summary",
+      "hard_rule_violations",
+      "uncovered_slots",
+      "affected_employee_notifications"
+    ],
+    "type": "object"
+  },
+  "family": "F04_demand_spike",
+  "family_description": "Replan only the affected seven-day period after a ward demand spike, minimizing changes and notifying staff.",
+  "generation_attempts": 1,
+  "generator_version": "opsdesk-m3-planted-v1",
+  "home_archetype": "small_home",
+  "horizon_days": 30,
+  "instruction": "Demand increased for the next seven days. Update only affected shifts where practical, keep unaffected assignments stable, and notify anyone whose assignment changes. Send roster-change notices to each employee whose shift changes or who is named in a decided request. Include recipient_id, shift_date, shift_type, and ward_id in messaging.send; unrelated messages without those shift fields do not count as roster notifications. This episode accepts at most 3,000 state-changing tool calls and at most 10,000 tool calls in total; plan large rebuilds accordingly. These positions were already open before this request and must also be covered where the rules allow (date, ward, shift): 2026-03-15 ward-01 late; 2026-03-15 ward-02 late; 2026-03-15 ward-02 night; 2026-03-21 ward-01 night; 2026-03-21 ward-02 night; 2026-03-22 ward-01 late; 2026-03-22 ward-01 night; 2026-03-22 ward-02 early; 2026-03-22 ward-02 late; 2026-03-22 ward-02 night. Follow the active written rules, do not claim work is covered unless the roster actually meets its headcount and qualification requirements, and leave the clock records unchanged.",
+  "jurisdiction": "de",
+  "reporting_requirements": [
+    "Use integer minutes for work and discrepancy totals.",
+    "Give a specific reason for each declined swap or uncovered slot.",
+    "Report costs in the task currency and do not exceed the agency budget."
+  ],
+  "start_date": "2026-02-21",
+  "task_id": "F04_demand_spike-0009100063",
+  "title": "F04_demand_spike: Demand Spike",
+  "world_file": "world.json"
+}

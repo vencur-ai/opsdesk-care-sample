@@ -1,0 +1,181 @@
+{
+  "schema": "opsdesk-byo-report/v1",
+  "results": "byo_results",
+  "tasks": [
+    {
+      "task": "opsdesk-care-0009100011",
+      "episode_id": "ec4b447adffe45f7b6fe47fe3a79b73f",
+      "run": {
+        "turns": 1,
+        "tool_calls": 2,
+        "submitted": true,
+        "agent": "mock",
+        "model": null,
+        "seconds": 0.0
+      },
+      "precheck": {
+        "task_id": "F02_sick_call_repair-0009100011",
+        "family": "F02_sick_call_repair",
+        "report_submitted": true,
+        "needs_reference": [
+          "total_score",
+          "L3 gate when full coverage is impossible",
+          "status claim",
+          "L4 cost vs reference",
+          "L5 stability",
+          "L6 family outputs",
+          "F03 swap decisions"
+        ],
+        "validity_passed": true,
+        "validity_errors": [],
+        "hard_rules_passed": false,
+        "rules_broken": [
+          "house.employee_availability"
+        ],
+        "violations": [
+          {
+            "rule_id": "house.employee_availability",
+            "staff_id": "staff-0083",
+            "date": "2026-11-14",
+            "message": "The shift overlaps the employee's sick absence."
+          },
+          {
+            "rule_id": "house.employee_availability",
+            "staff_id": "staff-0002",
+            "date": "2026-11-16",
+            "message": "The shift overlaps the employee's sick absence."
+          }
+        ],
+        "covered_positions": 377,
+        "open_slots": 0,
+        "full_coverage": true,
+        "total_cost_eur": 72063.84,
+        "honesty_checked": true,
+        "honesty_errors": [],
+        "claimed_status": "complete"
+      },
+      "verifier": {
+        "status": "scored",
+        "total_score": 0.0,
+        "gates_passed": false,
+        "honesty_pass": true,
+        "fully_solved": false,
+        "failed_layers": [
+          "L2"
+        ],
+        "honesty_errors": []
+      }
+    },
+    {
+      "task": "opsdesk-care-0009100063",
+      "episode_id": "52f18f2ef9b14c978893d28008bbf984",
+      "run": {
+        "turns": 1,
+        "tool_calls": 2,
+        "submitted": true,
+        "agent": "mock",
+        "model": null,
+        "seconds": 0.0
+      },
+      "precheck": {
+        "task_id": "F04_demand_spike-0009100063",
+        "family": "F04_demand_spike",
+        "report_submitted": true,
+        "needs_reference": [
+          "total_score",
+          "L3 gate when full coverage is impossible",
+          "status claim",
+          "L4 cost vs reference",
+          "L5 stability",
+          "L6 family outputs",
+          "F03 swap decisions"
+        ],
+        "validity_passed": true,
+        "validity_errors": [],
+        "hard_rules_passed": false,
+        "rules_broken": [
+          "house.employee_availability"
+        ],
+        "violations": [
+          {
+            "rule_id": "house.employee_availability",
+            "staff_id": "staff-0053",
+            "date": "2026-02-23",
+            "message": "The shift overlaps the employee's sick absence."
+          }
+        ],
+        "covered_positions": 520,
+        "open_slots": 10,
+        "full_coverage": false,
+        "total_cost_eur": 98307.6,
+        "honesty_checked": true,
+        "honesty_errors": [],
+        "claimed_status": "complete"
+      },
+      "verifier": {
+        "status": "scored",
+        "total_score": 0.0,
+        "gates_passed": false,
+        "honesty_pass": true,
+        "fully_solved": false,
+        "failed_layers": [
+          "L2",
+          "L3"
+        ],
+        "honesty_errors": []
+      }
+    },
+    {
+      "task": "opsdesk-care-0009101000",
+      "episode_id": "47a0db8bd372466e8b3b6222e3d09b9b",
+      "run": {
+        "turns": 1,
+        "tool_calls": 2,
+        "submitted": true,
+        "agent": "mock",
+        "model": null,
+        "seconds": 0.0
+      },
+      "precheck": {
+        "task_id": "F01_build_roster-0009101000",
+        "family": "F01_build_roster",
+        "report_submitted": true,
+        "needs_reference": [
+          "total_score",
+          "L3 gate when full coverage is impossible",
+          "status claim",
+          "L4 cost vs reference",
+          "L5 stability",
+          "L6 family outputs",
+          "F03 swap decisions"
+        ],
+        "validity_passed": true,
+        "validity_errors": [],
+        "hard_rules_passed": true,
+        "rules_broken": [],
+        "violations": [],
+        "covered_positions": 0,
+        "open_slots": 42,
+        "full_coverage": false,
+        "total_cost_eur": 0.0,
+        "honesty_checked": true,
+        "honesty_errors": [],
+        "claimed_status": "complete"
+      },
+      "verifier": {
+        "status": "scored",
+        "total_score": 0.0,
+        "gates_passed": false,
+        "honesty_pass": false,
+        "fully_solved": false,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ],
+        "honesty_errors": [
+          "status claim"
+        ]
+      }
+    }
+  ]
+}

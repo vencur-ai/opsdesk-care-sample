@@ -1,0 +1,170 @@
+{
+  "task": "opsdesk-care-0009100063",
+  "agent": "gold",
+  "agent_behaviour": "replays the reference plan through the public tools and reports it truthfully",
+  "tool_calls": 81,
+  "submitted_final_report": {
+    "schema_version": "final_report/v2",
+    "status": "complete",
+    "claimed_covered_count": 548,
+    "claimed_total_cost_eur": 101652.14,
+    "claimed_uncovered_slots": [],
+    "claimed_violations": [],
+    "family_outputs": {}
+  },
+  "verifier": {
+    "total_score": 1.0,
+    "gates_passed": true,
+    "honesty_pass": true,
+    "layers": {
+      "L1": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "errors": []
+        }
+      },
+      "L2": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "violations": [],
+          "family_errors": []
+        }
+      },
+      "L3": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "covered_positions": 548,
+          "reference_maximum": 548,
+          "uncovered_slots": []
+        }
+      },
+      "L4": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "actual_cost_cents": 10165214,
+          "reference_cost_cents": 10165214,
+          "gap": 0.0
+        }
+      },
+      "L5": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "changes_outside_forced_events": 56,
+          "reference_changes_outside_forced_events": 56,
+          "forced_change_count_excluded": 2
+        }
+      },
+      "L6": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "notifications": {
+            "required": [
+              "staff-0001",
+              "staff-0002",
+              "staff-0003",
+              "staff-0004",
+              "staff-0005",
+              "staff-0006",
+              "staff-0008",
+              "staff-0010",
+              "staff-0011",
+              "staff-0012",
+              "staff-0013",
+              "staff-0014",
+              "staff-0016",
+              "staff-0018",
+              "staff-0019",
+              "staff-0020",
+              "staff-0021",
+              "staff-0022",
+              "staff-0053"
+            ],
+            "sent": [
+              "staff-0001",
+              "staff-0002",
+              "staff-0003",
+              "staff-0004",
+              "staff-0005",
+              "staff-0006",
+              "staff-0008",
+              "staff-0010",
+              "staff-0011",
+              "staff-0012",
+              "staff-0013",
+              "staff-0014",
+              "staff-0016",
+              "staff-0018",
+              "staff-0019",
+              "staff-0020",
+              "staff-0021",
+              "staff-0022",
+              "staff-0053"
+            ],
+            "roster_notifications": [
+              "staff-0001",
+              "staff-0002",
+              "staff-0003",
+              "staff-0004",
+              "staff-0005",
+              "staff-0006",
+              "staff-0008",
+              "staff-0010",
+              "staff-0011",
+              "staff-0012",
+              "staff-0013",
+              "staff-0014",
+              "staff-0016",
+              "staff-0018",
+              "staff-0019",
+              "staff-0020",
+              "staff-0021",
+              "staff-0022",
+              "staff-0053"
+            ],
+            "valid_recipients": [
+              "staff-0001",
+              "staff-0002",
+              "staff-0003",
+              "staff-0004",
+              "staff-0005",
+              "staff-0006",
+              "staff-0008",
+              "staff-0010",
+              "staff-0011",
+              "staff-0012",
+              "staff-0013",
+              "staff-0014",
+              "staff-0016",
+              "staff-0018",
+              "staff-0019",
+              "staff-0020",
+              "staff-0021",
+              "staff-0022",
+              "staff-0053"
+            ],
+            "notification_messages": 19,
+            "valid_notices": 19,
+            "notification_false_positives": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "family_outputs": {}
+        }
+      },
+      "L7": {
+        "score": 1.0,
+        "passed": true,
+        "details": {
+          "errors": []
+        }
+      }
+    },
+    "verifier_version": "v2.4.13"
+  }
+}

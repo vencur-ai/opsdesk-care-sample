@@ -1,0 +1,8 @@
+{
+  "bundle_sha256": "88c17df51012cb70b1be3a33845b0c35ed930977078a369061a80db42e719215",
+  "file_sha256": {
+    "task.json": "c2ba8334637e18796e8fb4798016ceabf8218a92f91a6892d4bafb1ab91c1592",
+    "world.json": "03478fd0da968ef5e0e5d3b0fe1e15d4a8880e332a4a189f8930ca82f3ed4462"
+  },
+  "schema_version": "opsdesk-agent-bundle-v1"
+}

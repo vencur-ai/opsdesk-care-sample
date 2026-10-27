@@ -1,0 +1,18 @@
+{
+  "name": "opsdesk-care-sample",
+  "env_version": "2.4.13",
+  "built": "2026-10-27",
+  "licence": "evaluation only (LICENSE.md)",
+  "tasks": {
+    "opsdesk-care-0009100011": "feasible, medium",
+    "opsdesk-care-0009100063": "feasible, hard",
+    "opsdesk-care-0009101000": "proven infeasible, easy"
+  },
+  "references_included": [
+    "private/references/F01_build_roster-0009101000.json",
+    "private/references/F02_sick_call_repair-0009100011.json",
+    "private/references/F04_demand_spike-0009100063.json"
+  ],
+  "solver_included": false,
+  "generator_included": false
+}

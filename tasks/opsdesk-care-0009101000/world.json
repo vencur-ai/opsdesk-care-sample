@@ -1,0 +1,1935 @@
+{
+  "absences": [
+    {
+      "absence_id": "reserve-0009101000-0000",
+      "absence_type": "holiday",
+      "employee_id": "staff-0001",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0001",
+      "absence_type": "holiday",
+      "employee_id": "staff-0002",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0002",
+      "absence_type": "holiday",
+      "employee_id": "staff-0003",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0003",
+      "absence_type": "holiday",
+      "employee_id": "staff-0004",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0004",
+      "absence_type": "holiday",
+      "employee_id": "staff-0005",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0005",
+      "absence_type": "holiday",
+      "employee_id": "staff-0006",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0006",
+      "absence_type": "holiday",
+      "employee_id": "staff-0007",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0007",
+      "absence_type": "holiday",
+      "employee_id": "staff-0008",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0008",
+      "absence_type": "holiday",
+      "employee_id": "staff-0009",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0009",
+      "absence_type": "holiday",
+      "employee_id": "staff-0010",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0010",
+      "absence_type": "holiday",
+      "employee_id": "staff-0011",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0011",
+      "absence_type": "holiday",
+      "employee_id": "staff-0012",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0012",
+      "absence_type": "holiday",
+      "employee_id": "staff-0013",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    },
+    {
+      "absence_id": "reserve-0009101000-0013",
+      "absence_type": "holiday",
+      "employee_id": "staff-0014",
+      "end_date": "2026-02-15",
+      "start_date": "2026-02-15"
+    }
+  ],
+  "action_log": [],
+  "agency_budget": "0",
+  "agency_offers": [],
+  "agency_requests": [],
+  "care_rest_exception_enabled": false,
+  "council_submissions": [],
+  "demand_slots": [
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-001-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-001-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-001-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-001-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-001-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-001-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-002-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-002-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-002-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-002-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-002-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-16",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-002-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-003-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-003-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-003-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-003-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-003-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-17",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-003-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-004-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-004-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-004-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-004-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-004-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-18",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-004-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-005-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-005-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-005-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-005-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-005-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-19",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-005-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-006-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-006-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-006-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-006-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-006-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-20",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-006-ward-02-night",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-007-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-007-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-007-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "early",
+      "slot_id": "slot-007-ward-02-early",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "late",
+      "slot_id": "slot-007-ward-02-late",
+      "ward_id": "ward-02"
+    },
+    {
+      "date": "2026-02-21",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-007-ward-02-night",
+      "ward_id": "ward-02"
+    }
+  ],
+  "documents": [
+    {
+      "body": "## Old staffing memo (filed copy)\n\nThis note was circulated as a temporary shortcut. Check its expiry before applying it. It does not amend a signed agreement or the current house rules.",
+      "document_id": "doc-expired-memo",
+      "effective_from": "2025-10-18",
+      "effective_until": "2026-01-16",
+      "source": "expired_memo",
+      "title": "Old staffing memo (expiry check needed)"
+    },
+    {
+      "body": "## Working-time reference (staff handbook extract)\n\nThe roster must observe the local working-time pack. In the UK, keep each Monday-to-Sunday week at or below 48 rostered working hours unless a worker has an individual opt-out; allow 11 hours between shifts. In Germany, do not exceed 10 working hours in one day and preserve 11 hours of rest. Breaks remain part of the shift record, not paid working minutes.\n\nThis note is a short operating summary. The complete statutory rule pack governs if a summary or manager message is inconsistent.\n\n## Binding rules checked on every roster\n\n- Weekly working time: at most 48 rostered hours in each Monday-to-Sunday week unless the worker has an individual opt-out.\n- Daily rest: at least 11 consecutive hours of rest between working days.\n- Weekly rest: 24 uninterrupted hours in each seven-day period, or 48 uninterrupted hours in each 14-day period.\n- Rest breaks: a shift longer than six hours includes a break of at least 20 minutes (the shift table below already contains it).\n- Night workers: on average no more than 8 hours of work in each 24-hour period.\n- Employee records are binding: never roster anyone on a fixed day off, outside a night-only contract, or during a recorded absence (announced sick calls included).\n- Each employee record states a maximum number of night shifts per month; do not exceed it.\n- Consecutive night shifts, registered-nurse minimums, consecutive working days, late-to-early turnarounds and part-time margins follow the current house rules and any signed works agreement (see those documents and their order of precedence).\n\n## Episode limits\n\nThis episode accepts at most 3,000 state-changing tool calls and at most 10,000 tool calls in total; plan large rebuilds accordingly.\n\n## Shift times and breaks\n\n| Shift | Start | End | Break |\n|---|---:|---:|---:|\n| Early | 06:00 | 14:00 | 30 minutes |\n| Late | 14:00 | 22:00 | 30 minutes |\n| Night | 22:00 | 06:00 | 30 minutes |\n| Long day | 07:00 | 19:30 | 45 minutes |\n\n### Document precedence\nWhen two written sources disagree, apply this order: applicable labour law > signed works agreement > current house rules > memos. An expired memo is not valid. If two valid memos conflict, the newer effective memo supersedes the older one.",
+      "document_id": "doc-handbook",
+      "effective_from": "2026-02-15",
+      "effective_until": null,
+      "source": "staff_handbook",
+      "title": "Staff handbook excerpt"
+    },
+    {
+      "body": "## House rules (current copy)\n\n- No more than 3 consecutive night shifts.\n- At least 1 registered nurse(s) on each demanded ward/shift.\n- No more than 6 consecutive working days.\n- A late duty followed by an early duty the next day is not permitted: yes.\n- Part-time hours may exceed contract by no more than 10% in a Monday-to-Sunday week.",
+      "document_id": "doc-house-rules",
+      "effective_from": "2026-02-15",
+      "effective_until": null,
+      "source": "house_rules",
+      "title": "Current house rules"
+    },
+    {
+      "body": "## Manager email thread (forwarded, please check the date)\n\nFrom: Operations Manager\nSubject: Quick cover idea\n\nIf the board is tight, do not let an informal email override law or a signed agreement. Check the effective date and the document hierarchy before acting.",
+      "document_id": "doc-manager-email",
+      "effective_from": "2026-02-05",
+      "effective_until": null,
+      "source": "manager_email",
+      "title": "Manager email thread"
+    },
+    {
+      "body": "## Ward notes (working copy)\n\n- Oak Wing: use the qualifications shown in the demand forecast; do not assume a team lead can replace a registered nurse.\n- Willow Wing: use the qualifications shown in the demand forecast; do not assume a team lead can replace a registered nurse.",
+      "document_id": "doc-ward-notes",
+      "effective_from": "2026-02-15",
+      "effective_until": null,
+      "source": "ward_notes",
+      "title": "Ward-specific notes"
+    },
+    {
+      "body": "## Signed works agreement / Betriebsvereinbarung\n\nThe agreement applies alongside statutory protections. Where it gives a more specific operational limit than the house handbook, use the agreement; it cannot displace a stricter statutory rule.\n\nUse the current house-rule copy for local night-run limits. Record approved swaps before the next roster publication.",
+      "document_id": "doc-works-agreement",
+      "effective_from": "2026-02-15",
+      "effective_until": null,
+      "source": "works_agreement",
+      "title": "Works agreement / Betriebsvereinbarung"
+    }
+  ],
+  "employees": [
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0001",
+      "fixed_days_off": [],
+      "hourly_rate": "19.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Luca Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0002",
+      "fixed_days_off": [],
+      "hourly_rate": "18.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Jules Bennett",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0003",
+      "fixed_days_off": [],
+      "hourly_rate": "21.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Yuri Reed",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0004",
+      "fixed_days_off": [],
+      "hourly_rate": "21.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Ari Lopez",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 28.0
+      },
+      "employee_id": "staff-0005",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Gray Haddad",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0006",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Harper Green",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0007",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Rory Ito",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": true
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0008",
+      "fixed_days_off": [],
+      "hourly_rate": "21.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Quinn Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0009",
+      "fixed_days_off": [],
+      "hourly_rate": "19.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Dev Ellis",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0010",
+      "fixed_days_off": [],
+      "hourly_rate": "19.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Rory Ellis",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 24.0
+      },
+      "employee_id": "staff-0011",
+      "fixed_days_off": [],
+      "hourly_rate": "21.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Rory Haddad",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0012",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Wren Chen",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0013",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Ellis Haddad",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0014",
+      "fixed_days_off": [],
+      "hourly_rate": "23.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Ari Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0015",
+      "fixed_days_off": [],
+      "hourly_rate": "16.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Jules Taylor",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0016",
+      "fixed_days_off": [],
+      "hourly_rate": "17.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Uma Young",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0017",
+      "fixed_days_off": [],
+      "hourly_rate": "20.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Jules Chen",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0018",
+      "fixed_days_off": [],
+      "hourly_rate": "20.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Wren Vega",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0019",
+      "fixed_days_off": [],
+      "hourly_rate": "20.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Harper Fischer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0020",
+      "fixed_days_off": [],
+      "hourly_rate": "16.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Cameron Alder",
+      "night_only": true,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 24.0
+      },
+      "employee_id": "staff-0021",
+      "fixed_days_off": [],
+      "hourly_rate": "16.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Luca Taylor",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0022",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Indigo Singh",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0023",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Wren Nolan",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0024",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Dev Quinn",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0025",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Zuri Lopez",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0026",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Morgan Green",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 28.0
+      },
+      "employee_id": "staff-0027",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Luca Nolan",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": true
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0028",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Noor Ellis",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0029",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Harper Ito",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0030",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Indigo Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0031",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Indigo Bennett",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0032",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Luca Osei",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0033",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Ellis Fischer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0034",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Dev Khan",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0035",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Bea Khan",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0036",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Bea Ito",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0037",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Toni Bennett",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 24.0
+      },
+      "employee_id": "staff-0038",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Dev Alder",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0039",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Harper Patel",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0040",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Rory Young",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0041",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Morgan Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0042",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Uma Singh",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0043",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Oak Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0044",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Cameron Lopez",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0045",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Gray Taylor",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0046",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Wren Ito",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0047",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Oak Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0048",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Parker Lopez",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0049",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Jules Quinn",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 24.0
+      },
+      "employee_id": "staff-0050",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Toni Wong",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 28.0
+      },
+      "employee_id": "staff-0051",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Bea Ito",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0052",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Luca Patel",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0053",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Ellis Wong",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0054",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Dev Diaz",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0055",
+      "fixed_days_off": [
+        6
+      ],
+      "hourly_rate": "15.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "Val Chen",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0056",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Noor Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0057",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Rory Chen",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0058",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Toni Taylor",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0059",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Parker Young",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0060",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Quinn Bennett",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0061",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Zuri Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0062",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Ari Taylor",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0063",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Zuri Green",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0064",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Luca Ellis",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0065",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Kai Diaz",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0066",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Wren Ullman",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0067",
+      "fixed_days_off": [],
+      "hourly_rate": "13.75",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Quinn Young",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0068",
+      "fixed_days_off": [],
+      "hourly_rate": "15.25",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Toni Nolan",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0069",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Harper Meyer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 24.0
+      },
+      "employee_id": "staff-0070",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Toni Fischer",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0071",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Wren Osei",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0072",
+      "fixed_days_off": [],
+      "hourly_rate": "14.5",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Cameron Quinn",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 20.0
+      },
+      "employee_id": "staff-0073",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Bea Ullman",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0074",
+      "fixed_days_off": [],
+      "hourly_rate": "16.0",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Gray Osei",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    }
+  ],
+  "events": [],
+  "home_id": "home-0009101000",
+  "home_name": "Maple Grange",
+  "horizon_days": 7,
+  "jurisdiction": "uk",
+  "messages": [],
+  "payroll_exports": [],
+  "roster": {
+    "assignments": [],
+    "published": false
+  },
+  "seed": 9101000,
+  "sim_clock": {
+    "day_index": 0,
+    "horizon_days": 7,
+    "start_date": "2026-02-15"
+  },
+  "start_date": "2026-02-15",
+  "timeclock_entries": [],
+  "wards": [
+    {
+      "name": "Oak Wing",
+      "ward_id": "ward-01"
+    },
+    {
+      "name": "Willow Wing",
+      "ward_id": "ward-02"
+    }
+  ],
+  "works_council_required": false
+}
