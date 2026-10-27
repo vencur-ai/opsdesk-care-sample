@@ -9,7 +9,7 @@ Two scripted agents ran through the episode API of exactly these packed tasks an
 | Task | Family | Agent | Tool calls | Gates | Honesty | Score | Failed layers |
 |---|---|---|---:|---|---|---:|---|
 | opsdesk-care-0009101000 | F01_build_roster (UK) | gold (replays the solver reference) | 214 | yes | yes | 1.000 | – |
-| opsdesk-care-0009101000 | F01_build_roster (UK) | no-op (changes nothing, honest report) | 2 | no | no | 0.000 | L3, L7 |
+| opsdesk-care-0009101000 | F01_build_roster (UK) | no-op (changes nothing, keeps the default status `complete` on this infeasible task) | 2 | no | no | 0.000 | L3, L7 |
 | opsdesk-care-0009100011 | F02_sick_call_repair (UK) | gold (replays the solver reference) | 10 | yes | yes | 1.000 | – |
 | opsdesk-care-0009100011 | F02_sick_call_repair (UK) | no-op (changes nothing, honest report) | 2 | no | yes | 0.000 | L2 |
 | opsdesk-care-0009100063 | F04_demand_spike (DE) | gold (replays the solver reference) | 81 | yes | yes | 1.000 | – |

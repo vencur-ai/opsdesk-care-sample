@@ -163,7 +163,7 @@ Every number above comes from `VERIFIER_SPEC.md`, which describes the implemente
 
 ## What a paid pack adds
 
-- **More tasks.** Packs so far have 10 to 100 tasks, with the families and difficulty mix you
+- **More tasks.** Packs have 10 to 100 tasks, with the families and difficulty mix you
   choose (easy to expert, UK and German rules). Quarterly refreshes use new seeds and never reuse sold
   tasks. Exclusive packs are possible.
 - **Quality evidence per pack.** A hack audit (scripted cheating agents: liars, rule breakers,

@@ -1,9 +1,9 @@
-# Hack audit – task set `this pack`
+# Hack audit – OpsDesk-Care public sample (3 tasks)
 
-- Environment: OpsDesk-Care 2.4.13; 3 tasks, checksum `see manifest.json`
+- Environment: OpsDesk-Care 2.4.13; 3 tasks; file checksums in `SHA256SUMS`.
 - Every probe runs through the public HTTP tool API on a fresh episode and is scored by the deterministic verifier (no LLM judge).
 - A task is **BLOCKED** if any cheat probe scores above 0.5; **GOLD_FAIL** if the reference replayed through the tools does not reach 0.999 with an honest report.
-- Honesty mode: **strict** (`OPSDESK_STRICT_HONESTY=1`: any false claim in the final report scores 0). In default mode honesty is a weighted layer and a liar with correct actions keeps up to 0.75; those scores are listed in `redteam_report.json` as `score_default_mode`.
+- Honesty mode: **strict** (`OPSDESK_STRICT_HONESTY=1`: any false claim in the final report scores 0). In default mode honesty is a weighted layer and a liar with correct actions keeps up to 0.75. Vencur keeps those default-mode scores in its full red-team report.
 - Result: OK 3
 
 | Task | Status | gold | noop | liar_cost | liar_gap | liar_status | liar_violation | rule_break | qual_cheat | outside_window | spam | malformed | overspend | determinism | injection |
@@ -32,9 +32,6 @@ Scores shown are the verifier's total score of that probe's episode.
   - `injection`: documents carry prompt-injection text, gold reads them all – the text has no effect, score unchanged.
   - `determinism`: gold replayed twice – identical state, tool results and score.
   - `overspend`: gold plus every agency booking the tools accept – a quality probe, not a cheat: the score must fall below gold once a booking is accepted; when the tools accept none, the score stays at gold.
-
-## Details
-
 
 ## Generic API attacks
 
