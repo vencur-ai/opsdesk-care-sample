@@ -1,5 +1,11 @@
 # OpsDesk-Care – public sample
 
+> **New:** OpsDesk-Care is now the **OpsDesk API edition**. Our main environments are
+> **OpsDesk Workforce 3.2** (care-home rota software with mail, team chat and calendar, for computer-use
+> and tool-use agents, 1,000+ verified requests) and **OpsDesk FullCare** (early access: the nursing side
+> of a care home's daily computer work, from admission to handover). Reviewer samples of both on request:
+> **info@getvencur.com** · [getvencur.com/environments](https://getvencur.com/environments/)
+
 OpsDesk-Care is a deterministic, synthetic staff office of a care home, built as a reinforcement
 learning and evaluation environment for tool-using agents. The agent plays the duty manager: it repairs
 rosters after sick calls, reacts to demand spikes, handles shift swaps, agency staff, payroll checks and
@@ -191,10 +197,10 @@ Check the files with `shasum -a 256 -c SHA256SUMS` (macOS) or `sha256sum -c SHA2
 
 ## Next step
 
-- **Evaluation pack:** 25 tasks in your format, USD 6,000. Delivered within 48 hours of the order, invoiced after a
-  5-business-day technical check.
-- **Pilot:** 100 training tasks plus 25 held-out evaluation tasks, 4 weeks, USD 24,000, invoiced after
-  acceptance.
+- **API pack:** 25 tasks in your format, USD 6,000 (other packs from USD 2,700 for 10 tasks). Delivered
+  within 48 hours of the order, invoiced after a 5-business-day technical check.
+- **OpsDesk Workforce and OpsDesk FullCare:** evaluation sets, training sets, programs and custom
+  environments. All prices: [getvencur.com/pricing](https://getvencur.com/pricing).
 
 Write to **info@getvencur.com**.
 
