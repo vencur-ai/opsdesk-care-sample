@@ -197,10 +197,10 @@ Check the files with `shasum -a 256 -c SHA256SUMS` (macOS) or `sha256sum -c SHA2
 
 ## Next step
 
-- **API pack:** 25 tasks in your format, USD 6,000 (other packs from USD 2,700 for 10 tasks). Delivered
-  within 48 hours of the order, invoiced after a 5-business-day technical check.
-- **OpsDesk Workforce and OpsDesk FullCare:** evaluation sets, training sets, programs and custom
-  environments. All prices: [getvencur.com/pricing](https://getvencur.com/pricing).
+- **Pilot:** 25 verified tasks of your workflow, in your format, delivered in 5 working days. USD 6,000, half on
+  order and half on acceptance.
+- **After the pilot:** USD 200–400 per verified task, depending on difficulty. Exclusive rights: 3× the task price.
+- Every batch ships with the proof report and a solve-rate report on real models.
 
 Write to **info@getvencur.com**.
 
