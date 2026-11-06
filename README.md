@@ -2,9 +2,10 @@
 
 > **New:** OpsDesk-Care is now the **OpsDesk API edition**. Our main environments are
 > **OpsDesk Workforce 3.2** (care-home rota software with mail, team chat and calendar, for computer-use
-> and tool-use agents, 1,000+ verified requests) and **OpsDesk FullCare** (early access: the nursing side
-> of a care home's daily computer work, from admission to handover). Reviewer samples of both on request:
-> **info@getvencur.com** · [getvencur.com/environments](https://getvencur.com/environments/)
+> and tool-use agents, 1,000 verified requests) and **OpsDesk FullCare** (care-home nursing software, from
+> admission to handover, 300 verified requests). Both have public reviewer samples that run in about five
+> minutes: [opsdesk-workforce-sample](https://github.com/vencur-ai/opsdesk-workforce-sample) ·
+> [opsdesk-fullcare-sample](https://github.com/vencur-ai/opsdesk-fullcare-sample)
 
 OpsDesk-Care is a deterministic, synthetic staff office of a care home, built as a reinforcement
 learning and evaluation environment for tool-using agents. The agent plays the duty manager: it repairs
